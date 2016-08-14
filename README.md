@@ -55,12 +55,13 @@ usage: whf_isy_update [-f|--fanhost fanhost] [-h|--isyhost isyhost] [--ssl=yes|n
 ```
 
 This could be run via. cron, as an example:
-    */5 * * * * /usr/local/bin/whf_isy_update --user 'admin:admin' --ssl=no
-
+```
+*/5 * * * * /usr/local/bin/whf_isy_update --user 'admin:admin' --ssl=no
+```
 
 ## ISY Example Usage
 
-When used with the [isy994i] [network resources], this code could be used to turn off the whole house fan if it is warmer outside than it is inside:
+When used with the [isy994i] and [network resources], this code could be used to turn off the whole house fan if it is warmer outside than it is inside:
 
 ```
 If
