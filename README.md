@@ -66,6 +66,7 @@ When used with the [isy994i] and [network resources], this code could be used to
 ```
 If
       $whf_fanspeed >= 1
+  And $whf_timeremaining is 0
   And $weewx_outTemp >= $weewx_inTemp
 Then
       Resource 'Airscape_Off'
