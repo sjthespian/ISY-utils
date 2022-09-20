@@ -14,7 +14,7 @@ The configuration is done through the *weewx.conf* file, in the *[StdRESTful]*
        [[ISY]]
           server_url = http://isy/
           user = admin
-          password = *vosys
+          password = password
 
 You will also need to add the *user.isy.ISYUploader* module to the *restful_serivces* configuartion:
 
